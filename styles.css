@@ -33,6 +33,7 @@
 
 body {
     background-color: #fff9eb;
+    cursor: url("pictures/button-cursor.png"), pointer;
 }
 
 .headline .logo{
