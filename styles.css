@@ -2,8 +2,8 @@
     align-items: center;
     text-align: center;
     color: rgb(67, 31, 92);
-    margin: 0px;
-    font-size: 100px;
+    margin: 0rem;
+    font-size: 1.5rem;
     height: auto;
     background-color: #cfc6ff;
     width: 100%;
@@ -14,18 +14,28 @@
 
 .headline .titel {
     align-items: center;
-    
     color: rgb(67, 31, 92);
-    margin: 0px;
-    font-size: 100px;
+    margin: 0rem;
+    font-size: 10vw;
     height: auto;
     width: 100%;
     
 }
 
+img {
+  display: block;
+}
+
+
+picture {
+    margin: 0em;
+    height: auto;
+    
+}
+
 .headline .zweittitel {
     display: block;
-    font-size: 30px;
+    font-size: 5vw;
     color: rgb(38, 155, 190);
     font-weight: normal;
 }
@@ -38,15 +48,15 @@ body {
 
 .headline .logo{
     display: inline-flex;
-    align-self: end;
-    justify-content: space-between;
+    justify-content: space-between;    
+    
     text-align: right;
 }
 
 
 nav ul {
     text-align: center;
-    font-size: 22px;
+    font-size: 0.7rem;
     border:rgb(38, 155, 190) solid;
     display: flex;
     justify-content: space-evenly;
@@ -61,17 +71,17 @@ nav li {
 
 
 article{
-    font-size: 20px;
-    margin: 0px 100px;
+    font-size: 1.2rem;
+    margin: 0rem 2rem;
 }
 
 .angebote{
     display: block;
     align-items: start;
-    font-size: 20px;
+    font-size: 1.2rem;
     text-align: left;
     width: auto;
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
     
 }
 
@@ -79,9 +89,9 @@ article{
     color: rgb(84, 54, 168);
     display: flex;
     align-items: center;
-    gap: 10px;
-    font-size: 20px;
-    padding: 10px;
+    gap: 1rem;
+    font-size: 1.2rem;
+    padding: 1rem;
     text-align: left;
     width: auto;
     
@@ -89,8 +99,8 @@ article{
 
 .angebot::before {
     content: "";
-    width: 16px;
-    height: 16px;
+    width: 1rem;
+    height: 1rem;
     background-color: rgb(84, 54, 168);
 }
 
@@ -106,16 +116,15 @@ a {
     align-items: center;
     align-self: center;
     justify-self: center;
-    margin: 20px;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: italic;
     text-align: left; 
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 .zitat{
-    margin: 20px;
-    font-size: 16px;
+    margin: 0.2rem;
+    font-size: 0.8rem;
     font-style: italic;
     text-align: left; 
 }
